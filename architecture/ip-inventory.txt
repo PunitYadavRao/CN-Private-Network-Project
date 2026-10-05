@@ -1,0 +1,19 @@
+Instance: CN-DNS-CLIENT
+Private IP: 10.10.1.230
+Public IP: 3.231.105.27
+Services: dnsmasq, dig, curl
+
+Instance: CN-EDGE
+Private IP: 10.10.1.76
+Public IP: 3.227.23.244
+Services: nginx, TLS, load balancing
+
+Instance: CN-BACKEND-A
+Private IP: 10.10.1.17
+Public IP: 13.219.232.100
+Service: Node.js port 3001
+
+Instance: CN-BACKEND-B
+Private IP: 10.10.1.165
+Public IP: 18.234.242.165
+Service: Node.js port 3002

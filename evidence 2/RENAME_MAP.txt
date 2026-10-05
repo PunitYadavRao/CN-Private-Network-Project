@@ -1,0 +1,36 @@
+architecture:topology.png -> 00-network-topology.png
+vpc1.png -> 01-vpc-cidr-and-details.png
+subnet1.png -> 02-public-subnet-details.png
+igw1.png -> 03-internet-gateway-attached.png
+router_table1.png -> 04-route-table-and-subnet-association.png
+sg-1.png -> 05a-dns-security-group-created.png
+cn_dns_5g.png -> 05b-dns-security-group-inbound-rules.png
+cn_edge_5g.png -> 06-edge-security-group-inbound-rules.png
+cn_backend_sg.png -> 07-backend-security-group-inbound-rules.png
+four-ec2-instances.png -> 08-four-ec2-instances-running.png
+CN_DNS_CLIENT_ping.png -> 09a-dns-client-private-connectivity-ping.png
+CN_EDGE_ping.png -> 09b-edge-private-connectivity-ping.png
+CN_BACKEND-A_ping.png -> 09c-backend-a-private-connectivity-ping.png
+CN_BACKEND-B_ping.png -> 09d-backend-b-private-connectivity-ping.png
+backend.png -> 10-backend-a-and-b-direct-responses.png
+12-dnsmasq-running.png -> 12-dnsmasq-service-running-and-port53.png
+DNS_CN-DNS.png -> 13a-dns-local-resolution-app-and-api.png
+DNS_CN-EDGE.png -> 13b-dns-edge-query-to-private-dns.png
+DNS_CN_EDGE_2.png -> 13c-edge-configured-to-use-private-dns.png
+DNS_CN-BACKEND-B.png -> 14-second-client-dns-resolution-backend-b.png
+15-nginx-config-test.png -> 15-nginx-config-test-success.png
+Screenshot 2026-10-04 at 9.34.59 PM.png -> 16-load-balancing-backend-a-and-b.png
+19-https-no-k.png -> 19-https-trusted-request-without-k.png
+20-ca-trusted.png -> 20-local-ca-installed-and-trusted.png
+cache-headers,304-not-modified.png -> 21-22-cache-headers-etag-and-304.png
+DNS-resolution-wireshark.png -> 23a-wireshark-dns-query-response.png
+Wireshark DNS_ANSWER.png -> 23b-wireshark-dns-answer-details.png
+TCP Port-8443.png -> 24-wireshark-tcp-three-way-handshake-port8443.png
+25-wireshark-tls.png -> 25-wireshark-tls-handshake.png
+26-http-headers.png -> 26-https-http-response-headers.png
+27-dig-from-backend-b.png -> 27-dns-query-from-backend-b-client.png
+28-wrong-dns-record.png -> 28-failure-wrong-dns-record.png
+29-backend-a-failure.png -> 29-failure-backend-a-down-service-continues.png
+30-both-backends-down-502.png -> 30-failure-both-backends-down-502.png
+31-wrong-port.png -> 31-failure-wrong-destination-port.png
+32-wrong-dns-server.png -> 32-failure-wrong-dns-server.png
